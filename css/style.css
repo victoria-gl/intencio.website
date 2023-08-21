@@ -1,5 +1,60 @@
 body {
-    background-color: white;
-    width: 1920px;
+  background-color: white;
+  width: 1920px;
 }
 
+/* Header */
+.header-section {
+}
+.header-container {
+}
+.header-logo {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-list-link {
+}
+
+/* Hero block */
+.hero-section {
+}
+.container {
+}
+.hero-container {
+}
+.hero-title {
+}
+.hero-description {
+}
+.hero-element-1 {
+}
+.hero-element-2 {
+}
+
+/* Who we are block */
+.whoweare-section {
+}
+.container {
+}
+.whoweare-container {
+}
+.whoweare-title {
+}
+.whoweare-text-div {
+}
+.whoweare-p-1 {
+}
+.whoweare-p-2 {
+}
+.whoweare-p-3 {
+}
+.whoweare-element-1 {
+}
+.whoweare-element-2 {
+}
+.whoweare-element-3 {
+}
+.whoweare-element-4 {
+}
