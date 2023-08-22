@@ -5,11 +5,14 @@ body {
 
 .list {
   list-style: none;
+  display: list-item;
 }
 
 .link {
   text-decoration: none;
   line-height: 1.17;
+}
+.nav {
 }
 
 :root {
@@ -52,7 +55,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 1216px;
   padding: 0 0;
   margin: 0 auto;
 }
@@ -65,18 +68,39 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* padding: 39px 113px; */
 }
-.logo-div {
-  display: inline-flex;
+
+.header-nav {
+  display: flex;
+}
+.logo-link {
+  display: flex;
   align-items: center;
+  margin-right: 689px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color);
+  letter-spacing: 1.3px;
 }
-.header-logo {
+.logo-icon {
+  fill: var(--brand-color-red);
 }
 .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 75px;
 }
 .nav-list-item {
 }
 .nav-list-link {
+  display: block;
+  color: --text-color;
+  font-family: 'Heebo';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 100% */
 }
 
 /* Hero block */
