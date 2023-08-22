@@ -36,7 +36,7 @@ body {
 
 @font-face {
   font-family: 'Mazzard H';
-  src: url('/fonts.sprite/MazzardH-Bold.eot');
+  src: url('/fonts.sprite/MazzardH-Bold.otf');
   src: local('Mazzard H Bold'), local('MazzardH-Bold'),
     url('/fonts.sprite/MazzardH-Bold.eot?#iefix') format('embedded-opentype'),
     url('/fonts.sprite/MazzardH-Bold.woff2') format('woff2'),
@@ -143,7 +143,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 39px 113px; */
 }
 
 .header-nav {
@@ -158,6 +157,9 @@ img {
   font-weight: 400;
   color: var(--text-color);
   letter-spacing: 1.3px;
+  font-family: 'Mazzard M', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 .logo-icon {
   fill: var(--brand-color-red);
@@ -171,24 +173,51 @@ img {
 }
 .nav-list-link {
   display: block;
-  color: --text-color;
-  font-family: 'Mazzard';
+  color: var(--text-color);
   font-size: 25px;
+  font-family: 'Mazzard M', sans-serif;
+  font-weight: 300;
   font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 100% */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Hero block */
 .hero-section {
 }
-.container {
-}
+
 .hero-container {
+  padding-top: 235px;
+  padding-bottom: 357px;
+  padding-left: 113px;
+  padding-right: 113px;
 }
 .hero-title {
+  width: 568px;
+  color: var(--brand-color-red);
+  font-family: 'Mazzard H';
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 17px;
+  letter-spacing: 0.1px;
+}
+.result-span {
+  color: #78a6ff;
 }
 .hero-description {
+  width: 236px;
+  color: var(--text-color);
+  font-family: 'Mazzard H';
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+.description-span {
+  color: #3174f6;
 }
 .hero-element-1 {
 }
@@ -198,27 +227,75 @@ img {
 /* Who we are block */
 .whoweare-section {
 }
-.container {
-}
 .whoweare-container {
+  padding-left: 113px;
+  padding-right: 113px;
+  padding-top: 84px;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 137px;
 }
 .whoweare-title {
+  margin-left: 215px;
+  margin-bottom: 84px;
+  color: var(--text-color);
+  font-family: 'Mazzard H';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
 }
-.whoweare-text-div {
+
+.who-span {
+  color: var(--brand-color-red);
+}
+.whoweare-div {
+  display: flex;
+  margin: 0 0;
+  align-items: center;
+}
+
+.whoweare-div-text {
+  display: flex;
+  gap: 31px;
+  flex-direction: column;
 }
 .whoweare-p-1 {
+  width: 440px;
+  font-family: 'Mazzard M';
+  font-style: normal;
+  font-weight: normal;
+  color: var(--text-color);
+  font-size: 16px;
+}
+.whoweare-p-1-span {
+  color: var(--brand-color-red);
 }
 .whoweare-p-2 {
+  width: 369px;
+  font-family: 'Mazzard M';
+  font-style: normal;
+  font-weight: normal;
+  color: var(--text-color);
+  font-size: 16px;
 }
 .whoweare-p-3 {
-}
-.whoweare-element-1 {
-}
-.whoweare-element-2 {
+  width: 369px;
+  font-family: 'Mazzard M';
+  font-style: normal;
+  font-weight: normal;
+  color: var(--text-color);
+  font-size: 16px;
 }
 .whoweare-element-3 {
+  display: block;
+  margin-right: 41px;
 }
-.whoweare-element-4 {
+
+.whoweare-p-3-span {
+  color: var(--brand-color-blue);
 }
 
 /* What we do block */
