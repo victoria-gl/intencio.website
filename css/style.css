@@ -1,12 +1,74 @@
 body {
   background-color: white;
-  width: 1920px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  line-height: 1.17;
+}
+
+:root {
+  --brand-color-red: #ff4b23;
+  --brand-color-blue: #78a6ff;
+  --text-color: #242a3f;
+}
+
+/* Stylisation basic settings */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0%;
+  margin: 0%;
+}
+
+li,
+ul,
+ol {
+  margin: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 0;
+  margin: 0 auto;
 }
 
 /* Header */
 .header-section {
+  border-bottom: 1px solid #ffc6ba;
 }
 .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-div {
+  display: inline-flex;
+  align-items: center;
 }
 .header-logo {
 }
@@ -273,6 +335,8 @@ body {
 .container {
 }
 .contacts-container {
+}
+.intencio-mail {
 }
 .email {
 }
