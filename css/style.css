@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Mazzard', sans-serif;
 }
 
 .list {
@@ -151,7 +151,7 @@ img {
 .logo-link {
   display: flex;
   align-items: center;
-  margin-right: 689px;
+  margin-right: 708px;
   font-family: 'Mazzard';
   font-size: 20px;
   font-weight: 400;
@@ -174,7 +174,7 @@ img {
 .nav-list-link {
   display: block;
   color: var(--text-color);
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Mazzard M', sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -302,29 +302,144 @@ img {
 
 .whatwedo-section {
 }
-.container {
-}
+
 .whatwedo-container {
+  padding: 124px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .whatwedo-title {
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-family: 'Mazzard H';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 34px;
 }
-.btn-div {
+
+.dot {
+  color: var(--brand-color-red);
 }
-.btn {
+
+.wedo {
+  color: var(--brand-color-blue);
 }
-.whatwedo-card {
+
+.whatwedo-carousel {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  margin-bottom: 45px;
+}
+.card {
+  display: flex;
+  width: 500px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+}
+.whatwedo-card-1 {
+  background: #759eed40;
+  padding: 100px 100px;
 }
 .card-1-title {
+  color: #fb4b25;
+  font-family: 'Mazzard M';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.whatwedo-card-2 {
+  background: #fb4b25;
+  padding: 85px 142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .card-2-title {
+  color: #fff;
+  font-family: 'Mazzard M';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57.6px; /* 192% */
 }
 .card-2-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .card-2-list-item {
+  color: #fff;
+  font-family: 'Mazzard M';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+}
+.whatwedo-card-3 {
+  border-radius: 100px;
+  background: #2f407a;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .card-3-title {
+  color: var(--brand-color-red);
+  font-family: 'Mazzard M';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 57.6px; /* 192% */
 }
-.whatwedo-element {
+.clicker {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 51px;
+}
+
+.round {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--brand-color-red);
+}
+
+/* Button */
+.whatwedo-btn {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    var(--brand-color-blue),
+    var(--brand-color-red)
+  );
+}
+.btn {
+  padding: 16px 30px 10px 30px;
+  color: var(--brand-color-blue);
+  background-color: transparent;
+  text-align: center;
+  font-family: 'Mazzard M';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 /* Tech block */
