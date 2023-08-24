@@ -135,6 +135,18 @@ img {
   margin: 0 auto;
 }
 
+.btn {
+  padding: 16px 30px 10px 30px;
+  color: var(--brand-color-blue);
+  background-color: transparent;
+  text-align: center;
+  font-family: 'Mazzard M';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 12px;
+}
+
 /* Header */
 .header-section {
   border-bottom: 1px solid #ffc6ba;
@@ -431,16 +443,6 @@ img {
     var(--brand-color-red)
   );
 }
-.btn {
-  padding: 16px 30px 10px 30px;
-  color: var(--brand-color-blue);
-  background-color: transparent;
-  text-align: center;
-  font-family: 'Mazzard M';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: bold;
-}
 
 /* Tech block */
 .tech-section {
@@ -520,31 +522,109 @@ img {
 .advntg-container {
   padding: 154px 165px 191px 114px;
 }
+
+.advnt-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 .advntg-title {
+  color: var(--text-color);
+  font-family: 'Mazzard H';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+}
+
+.why-span {
+  color: var(--brand-color-red);
 }
 .advntg-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 364px;
+  margin-right: 170px;
+  position: relative;
 }
 .advntg-1-title {
+  color: var(--brand-color-red);
+  font-family: 'Mazzard M';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .advntg-1-p {
 }
 .advntg-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 403px;
+  margin-top: 24px;
+}
+.span-advnt-red {
+  color: var(--brand-color-red);
+}
+.span-advnt-blue {
+  color: #3174f6;
 }
 .advntg-2-title {
+  color: var(--brand-color-red);
+  font-family: 'Mazzard M';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .advntg-2-p {
 }
 .advntg-2-list {
+  margin-bottom: 48px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 .advntg-2-list-item {
 }
+
 .advntg-3 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 22px;
+  width: 372px;
+  margin-top: 214px;
 }
 .advntg-3-title {
+  color: var(--brand-color-red);
+  font-family: 'Mazzard M';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .advntg-3-p {
 }
+
 .advntg-btn {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to left,
+    var(--brand-color-blue),
+    var(--brand-color-red)
+  );
+}
+.btn-div {
+  display: block;
 }
 
 /* How we work block */
