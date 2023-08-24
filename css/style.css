@@ -462,7 +462,7 @@ img {
   font-weight: bold;
   line-height: normal;
   text-transform: uppercase;
-  margin-left: 100px;
+  margin-left: 114px;
   margin-bottom: 42px;
 }
 .tech-dots {
@@ -629,24 +629,88 @@ img {
 
 /* How we work block */
 .howwework-section {
+  height: 100%;
+  background: linear-gradient(90deg, #fff 50%, var(--brand-color-red) 50%);
 }
-.container {
-}
+
 .howwework-container {
+  padding: 149px 165px 233px 114px;
 }
 .howwework-title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  color: var(--text-color);
+  font-family: 'Mazzard H';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.span-blue {
+  color: var(--brand-color-blue);
+}
+
+.span-white {
+  color: #fff;
+}
+
+.steps-div {
+  display: flex;
+  flex-direction: row;
+  gap: 262px;
 }
 .howwework-list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-left: 2px solid rgba(117, 158, 237, 0.25);
+  height: fit-content;
 }
 .howwework-list-item {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  color: rgba(117, 158, 237, 0.42);
+  font-family: 'Mazzard M';
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
 }
 .first-step-content {
+  display: flex;
+  flex-direction: column;
 }
 .first-step-content-title {
+  margin-top: 20px;
+  margin-bottom: 39px;
+  color: #fff;
+  font-family: 'Mazzard M';
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
 }
 .first-step-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 .first-step-content-list-item {
+  color: #fff;
+  font-family: 'Mazzard M';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
 }
 .howwework-element-1 {
 }
